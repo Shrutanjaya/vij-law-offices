@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
+import Counsel from "./components/Counsel";
 import PracticeAreas from "./components/PracticeAreas";
 import Services from "./components/Services";
 import ProBono from "./components/ProBono";
-import Counsel from "./components/Counsel";
+import About from "./components/About";
 import LegalInsights from "./components/LegalInsights";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -15,11 +15,11 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
+        <Counsel />
         <PracticeAreas />
         <Services />
         <ProBono />
-        <Counsel />
+        <About />
         <LegalInsights />
         <Contact />
       </main>
@@ -27,4 +27,5 @@ export default function Home() {
     </>
   );
 }
+
 

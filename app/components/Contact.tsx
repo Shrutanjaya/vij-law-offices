@@ -1,19 +1,15 @@
-export default function Contact() {
+﻿export default function Contact() {
   return (
-    <section
-      id="contact"
-      className="section-pad"
-      style={{ background: "linear-gradient(160deg, #0a1520 0%, #162032 100%)" }}
-    >
+    <section id="contact" className="section-pad bg-[#0d1b2a]">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left */}
           <div>
-            <p className="text-xs tracking-[0.3em] uppercase text-[#b8975a] mb-6 font-medium">
+            <p className="text-xs tracking-[0.3em] uppercase text-[#B8975A] mb-6 font-medium">
               Contact
             </p>
             <h2
-              className="text-4xl lg:text-5xl text-[#f0ebe3] leading-tight mb-8"
+              className="text-4xl lg:text-5xl text-[#F0EBE3] leading-tight mb-8"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
               Reach the Chamber
@@ -25,7 +21,7 @@ export default function Contact() {
             </p>
           </div>
 
-          {/* Right — contact details */}
+          {/* Right â€” contact details */}
           <div className="space-y-8">
             {[
               {
@@ -40,24 +36,24 @@ export default function Contact() {
               },
               {
                 label: "Office",
-                value: "G-12, Basement, Jangpura Extension, New Delhi — 110014",
+                value: "G-12, Basement, Jangpura Extension, New Delhi â€” 110014",
                 href: "https://maps.google.com/?q=G-12+Basement+Jangpura+Extension+New+Delhi+110014",
               },
               {
                 label: "LinkedIn",
-                value: "shivani-vij-a5243a139",
+                value: "Shivani Vij",
                 href: "https://www.linkedin.com/in/shivani-vij-a5243a139/",
               },
             ].map((item) => (
-              <div key={item.label} className="flex gap-6 group">
-                <span className="text-xs tracking-widest uppercase text-[#b8975a] font-medium w-20 pt-0.5 shrink-0">
+              <div key={item.label} className="flex gap-6">
+                <span className="text-[11px] tracking-[0.2em] uppercase text-[#B8975A] font-medium w-24 pt-0.5 shrink-0">
                   {item.label}
                 </span>
                 <a
                   href={item.href}
                   target={item.href.startsWith("http") ? "_blank" : undefined}
                   rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="text-sm text-[#a8b8c8] hover:text-[#d4b483] transition-colors duration-200 leading-relaxed"
+                  className="text-sm text-[#a8b8c8] hover:text-[#D4B483] transition-colors duration-200 leading-relaxed"
                 >
                   {item.value}
                 </a>

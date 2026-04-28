@@ -1,97 +1,111 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 export default function Counsel() {
   return (
-    <section id="counsel" className="section-pad bg-[#0d1b2a]">
+    <section id="counsel" className="section-pad bg-[#FAF8F3]">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
-        <div className="mb-14">
-          <p className="text-xs tracking-[0.3em] uppercase text-[#b8975a] mb-6 font-medium">
-            Counsel
-          </p>
-          <h2
-            className="text-4xl lg:text-5xl text-[#f0ebe3] leading-tight"
-            style={{ fontFamily: "'Cormorant Garamond', serif" }}
-          >
-            The Person Behind the Practice
-          </h2>
-        </div>
+        {/* Section label */}
+        <p className="text-xs tracking-[0.3em] uppercase text-[#7A5C0A] mb-16 font-medium">
+          Counsel &amp; Founder
+        </p>
 
-        <div className="grid lg:grid-cols-5 gap-16 items-start">
-          {/* Photo */}
-          <div className="lg:col-span-2 relative">
-            <div className="relative w-full aspect-[3/4] max-w-sm">
-              {/* Gold border accent */}
-              <div className="absolute -top-3 -left-3 w-full h-full border border-[#b8975a]/30" />
-              <Image
-                src="/images/founder.jpg"
-                alt="Shivani Vij — Counsel & Founder, Vij Law Offices"
-                fill
-                className="object-cover object-top grayscale-[20%] rounded-sm"
-                sizes="(max-width: 768px) 100vw, 40vw"
-              />
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+          {/* Photo column */}
+          <div className="lg:col-span-4">
+            <div className="relative w-full max-w-sm">
+              {/* Offset gold border */}
+              <div className="absolute -top-4 -left-4 w-full h-full border-2 border-[#B8975A]/40 rounded-sm" />
+              <div className="relative aspect-[3/4] w-full">
+                <Image
+                  src="/images/founder.jpg"
+                  alt="Shivani Vij â€” Counsel & Founder, Vij Law Offices"
+                  fill
+                  className="object-cover object-top rounded-sm"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
             </div>
 
             {/* Name plate */}
-            <div className="mt-6 border-l-2 border-[#b8975a] pl-5">
+            <div className="mt-8 pl-5 border-l-[3px] border-[#B8975A]">
               <p
-                className="text-xl text-[#f0ebe3]"
+                className="text-2xl text-[#0d1b2a]"
                 style={{ fontFamily: "'Cormorant Garamond', serif" }}
               >
                 Shivani Vij
               </p>
-              <p className="text-xs tracking-widest uppercase text-[#b8975a] mt-1 font-medium">
-                Counsel & Founder
+              <p className="text-[11px] tracking-[0.2em] uppercase text-[#7A5C0A] mt-1 font-medium">
+                Counsel &amp; Founder
               </p>
-              <p className="text-xs text-[#8a9bb0] mt-1">
-                Advocate on Record, Supreme Court of India
+              <p className="text-xs text-[#6B7280] mt-1 leading-relaxed">
+                Advocate on Record<br />Supreme Court of India
               </p>
             </div>
           </div>
 
-          {/* Bio */}
-          <div className="lg:col-span-3 space-y-5 text-[#a8b8c8] text-base leading-relaxed">
-            <p>
-              Shivani Vij is a graduate of the National Law Institute University,
-              Bhopal, with more than eight years of experience at the bar. She is
-              an Advocate on Record at the Supreme Court of India.
-            </p>
-            <p>
-              She pursued her masters from the{" "}
-              <span className="text-[#d4b483]">University of Oxford</span>, backed
-              by the prestigious{" "}
-              <span className="text-[#d4b483]">Chevening Scholarship</span> offered
-              by the British Council, United Kingdom.
-            </p>
-            <p>
-              She is the co-author of{" "}
-              <em className="text-[#d4b483]">
-                The Patent Case Digest for India
-              </em>
-              , a Thomson Reuters publication.
-            </p>
-            <p>
-              Shivani has prior experience working in the Chambers of Senior Advocate
-              Gautam Narayan, and in the Chambers of Senior Advocates Haripriya
-              Padmanabhan and Gopal Sankaranarayanan before the Delhi High Court and
-              Supreme Court. She has also practised at the Bombay High Court with
-              Khaitan & Co.
-            </p>
+          {/* Bio column */}
+          <div className="lg:col-span-8">
+            <h2
+              className="text-4xl lg:text-5xl text-[#0d1b2a] leading-tight mb-6 max-w-2xl"
+              style={{ fontFamily: "'Cormorant Garamond', serif" }}
+            >
+              Eight Years at the Bar. Oxford-Trained.
+              <br />
+              <span style={{ color: "#7A5C0A" }}>Advocate on Record, Supreme Court.</span>
+            </h2>
+            <span className="gold-rule" />
 
-            {/* Credentials strip */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-6">
+            <div className="space-y-5 text-[#374151] text-[15px] leading-relaxed mb-10">
+              <p>
+                Shivani Vij is a graduate of the National Law Institute University,
+                Bhopal and holds a master's degree from the{" "}
+                <span className="font-medium text-[#0d1b2a]">University of Oxford</span>, where
+                she studied on the prestigious{" "}
+                <span className="font-medium text-[#0d1b2a]">Chevening Scholarship</span> awarded by
+                the British Council, United Kingdom.
+              </p>
+              <p>
+                She is an <span className="font-medium text-[#0d1b2a]">Advocate on Record</span> at
+                the Supreme Court of India â€” a qualification held by a limited number of advocates
+                that authorises filing matters directly before the Court.
+              </p>
+              <p>
+                She trained in the chambers of Senior Advocate Gautam Narayan and in the
+                chambers of Senior Advocates Haripriya Padmanabhan and Gopal
+                Sankaranarayanan before the Delhi High Court and the Supreme Court. She has
+                also practised with <span className="font-medium text-[#0d1b2a]">Khaitan &amp; Co.</span> at the Bombay High Court.
+              </p>
+              <p>
+                She is the co-author of{" "}
+                <em className="text-[#7A5C0A]">The Patent Case Digest for India</em>, a Thomson
+                Reuters publication, and is a regular contributor to legal scholarship and
+                contemporary updates.
+              </p>
+              <p>
+                Shivani is on the panel of Assisting Counsels of the{" "}
+                <span className="font-medium text-[#0d1b2a]">
+                  Supreme Court Legal Services Committee
+                </span>
+                .
+              </p>
+            </div>
+
+            {/* Credentials grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
-                "Advocate on Record — Supreme Court",
-                "Chevening Scholar — Oxford",
-                "Co-Author — Thomson Reuters",
-                "SCLSC Assisting Counsel",
-                "NLIU Bhopal Graduate",
-                "Khaitan & Co. Alumni",
+                { label: "Advocate on Record", sub: "Supreme Court of India" },
+                { label: "Chevening Scholar", sub: "University of Oxford" },
+                { label: "8+ Years", sub: "at the Bar" },
+                { label: "Thomson Reuters", sub: "Co-Author" },
+                { label: "SCLSC Panel", sub: "Assisting Counsel" },
+                { label: "Khaitan & Co.", sub: "Bombay High Court" },
               ].map((c) => (
                 <div
-                  key={c}
-                  className="border border-[#b8975a]/15 rounded-sm px-4 py-3 text-xs text-[#8a9bb0] leading-snug"
+                  key={c.label}
+                  className="bg-[#F3EFE6] border border-[#E0D9CC] rounded-sm px-4 py-4"
                 >
-                  {c}
+                  <p className="text-[13px] font-medium text-[#0d1b2a] leading-snug">{c.label}</p>
+                  <p className="text-[11px] text-[#6B7280] mt-0.5">{c.sub}</p>
                 </div>
               ))}
             </div>

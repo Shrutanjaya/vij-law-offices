@@ -1,60 +1,59 @@
-export default function About() {
+﻿export default function About() {
   return (
-    <section id="about" className="section-pad bg-[#0d1b2a]">
+    <section id="about" className="section-pad bg-[#FAF8F3]">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left — text */}
+          {/* Left â€” text */}
           <div>
-            <p className="text-xs tracking-[0.3em] uppercase text-[#b8975a] mb-6 font-medium">
+            <p className="text-xs tracking-[0.3em] uppercase text-[#7A5C0A] mb-6 font-medium">
               About the Chamber
             </p>
             <h2
-              className="text-4xl lg:text-5xl text-[#f0ebe3] mb-8 leading-tight"
+              className="text-4xl lg:text-5xl text-[#0d1b2a] mb-8 leading-tight"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Where Integrity Meets Craft
+              A Litigation Chamber in New Delhi
             </h2>
             <span className="gold-rule" />
 
-            <div className="space-y-5 text-[#a8b8c8] text-base leading-relaxed">
+            <div className="space-y-5 text-[#374151] text-[15px] leading-relaxed">
               <p>
-                Vij Law Offices is a litigation chamber with committed practitioners
-                representing clients in the Supreme Court of India, the Delhi High
-                Court and Tribunals in Delhi across a wide range of disputes.
+                Vij Law Offices is a litigation chamber representing clients in the
+                Supreme Court of India, the Delhi High Court and Tribunals in Delhi,
+                across a wide range of disputes.
               </p>
               <p>
-                We are committed to accessible justice — overcoming any barriers
-                faced on account of gender or disability. Integrity, ethics and
-                compassion are the values underpinning every matter we take.
+                The chamber is committed to accessible justice â€” overcoming any
+                barriers faced on account of gender or disability. Integrity, ethics
+                and compassion underpin every matter undertaken here.
               </p>
               <p>
-                Even beyond the courtroom, the chamber engages constantly with the
-                law, contributing to contemporary legal updates and academic discourse.
+                Beyond the courtroom, the chamber contributes regularly to
+                contemporary legal updates and academic discourse.
               </p>
             </div>
           </div>
 
-          {/* Right — stat cards */}
+          {/* Right â€” value pillars */}
           <div className="grid grid-cols-2 gap-4">
             {[
-              { number: "8+", label: "Years at the Bar" },
-              { number: "SC", label: "Supreme Court of India" },
-              { number: "AOR", label: "Advocate on Record" },
-              { number: "Oxford", label: "Chevening Scholar" },
+              { icon: "âš–", label: "Integrity", sub: "In every brief, every argument" },
+              { icon: "ðŸ“–", label: "Scholarship", sub: "Grounded in legal learning" },
+              { icon: "ðŸ¤", label: "Accessibility", sub: "Justice without barriers" },
+              { icon: "ðŸŽ¯", label: "Rigour", sub: "Precise, thorough, prepared" },
             ].map((item) => (
               <div
                 key={item.label}
-                className="bg-[#162032] border border-[#b8975a]/15 rounded-sm p-7 flex flex-col gap-2"
+                className="bg-[#F3EFE6] border border-[#E0D9CC] rounded-sm p-6 flex flex-col gap-2 hover:border-[#B8975A]/50 transition-colors duration-200"
               >
+                <span className="text-2xl opacity-70">{item.icon}</span>
                 <span
-                  className="text-3xl text-[#b8975a]"
+                  className="text-lg text-[#0d1b2a]"
                   style={{ fontFamily: "'Cormorant Garamond', serif" }}
                 >
-                  {item.number}
-                </span>
-                <span className="text-xs tracking-wide text-[#8a9bb0] uppercase font-medium">
                   {item.label}
                 </span>
+                <span className="text-[11px] text-[#6B7280] leading-snug">{item.sub}</span>
               </div>
             ))}
           </div>
