@@ -16,7 +16,7 @@ export default function Footer() {
               style={{ filter: "brightness(0) invert(1) opacity(0.85)" }}
             />
             <p className="text-xs text-[#8a9bb0] max-w-xs leading-relaxed tracking-wide">
-              Supreme Court of India &nbsp;Â·&nbsp; Delhi High Court &nbsp;Â·&nbsp; Tribunals in Delhi
+              Supreme Court of India &nbsp;&middot;&nbsp; Delhi High Court &nbsp;&middot;&nbsp; Tribunals in Delhi
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
             of this website are the intellectual property of the counsel.
           </p>
           <p className="text-xs text-[#4a5a6a] mt-4">
-            Â© {new Date().getFullYear()} Vij Law Offices. All rights reserved.
+            &copy; {new Date().getFullYear()} Vij Law Offices. All rights reserved.
           </p>
         </div>
       </div>

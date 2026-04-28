@@ -48,7 +48,7 @@ export default function Hero() {
 
         {/* Sub-line */}
         <p className="text-base sm:text-lg text-[#4a5568] tracking-wide max-w-lg">
-          Supreme Court of India &nbsp;Â·&nbsp; Delhi High Court &nbsp;Â·&nbsp; Tribunals in Delhi
+          Supreme Court of India &nbsp;&middot;&nbsp; Delhi High Court &nbsp;&middot;&nbsp; Tribunals in Delhi
         </p>
 
         {/* Scroll cue */}
