@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section id="top" className="relative min-h-screen flex flex-col justify-center overflow-hidden">
-      {/* Stock image â€” law library â€” with warm cream overlay */}
+      {/* Stock image — law library — with warm cream overlay */}
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1920&q=80"
@@ -20,7 +20,7 @@ export default function Hero() {
       <div className="absolute left-0 top-24 bottom-24 w-[3px] bg-gradient-to-b from-transparent via-[#B8975A]/50 to-transparent" />
 
       <div className="relative max-w-7xl mx-auto px-8 lg:px-20 pt-36 pb-28 w-full">
-        {/* BIG LOGO â€” hero centrepiece */}
+        {/* BIG LOGO — hero centrepiece */}
         <div className="mb-10">
           <Image
             src="/images/logo.png"

@@ -21,7 +21,7 @@
             </p>
           </div>
 
-          {/* Right â€” contact details */}
+          {/* Right — contact details */}
           <div className="space-y-8">
             {[
               {
@@ -36,7 +36,7 @@
               },
               {
                 label: "Office",
-                value: "G-12, Basement, Jangpura Extension, New Delhi â€” 110014",
+                value: "G-12, Basement, Jangpura Extension, New Delhi — 110014",
                 href: "https://maps.google.com/?q=G-12+Basement+Jangpura+Extension+New+Delhi+110014",
               },
               {

@@ -32,7 +32,7 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        {/* Logo â€” compact in navbar */}
+        {/* Logo — compact in navbar */}
         <Link href="#top" className="flex items-center">
           <Image
             src="/images/logo.png"

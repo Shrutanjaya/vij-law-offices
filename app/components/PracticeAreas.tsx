@@ -14,7 +14,7 @@ const areas = [
   {
     num: "03",
     title: "Criminal Law",
-    body: "Regular and anticipatory bail, suspension of sentence pending appeal, appeals against convictions â€” including matters involving the sentence of death penalty.",
+    body: "Regular and anticipatory bail, suspension of sentence pending appeal, appeals against convictions — including matters involving the sentence of death penalty.",
   },
   {
     num: "04",
@@ -45,7 +45,7 @@ export default function PracticeAreas() {
               Can We Help with Your Matter?
             </h2>
           </div>
-          {/* Stock image accent â€” law books */}
+          {/* Stock image accent — law books */}
           <div className="hidden lg:block relative h-36 rounded-sm overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900&q=80"

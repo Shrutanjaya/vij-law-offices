@@ -14,7 +14,7 @@ export default function ProBono() {
               className="text-4xl lg:text-5xl text-[#0d1b2a] leading-tight mb-8"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Access to Justice â€”<br />Without Exception
+              Access to Justice —<br />Without Exception
             </h2>
             <span className="gold-rule" />
 
@@ -24,8 +24,8 @@ export default function ProBono() {
                 vulnerable sections of society face in accessing legal services.
               </p>
               <p>
-                Pro bono work is undertaken in criminal law â€” including cases of
-                capital punishment, bail and appeals from conviction â€” as well as in
+                Pro bono work is undertaken in criminal law — including cases of
+                capital punishment, bail and appeals from conviction — as well as in
                 civil matters such as pension disputes and matrimonial proceedings.
               </p>
               <p>
@@ -52,7 +52,7 @@ export default function ProBono() {
                 className="text-2xl text-white leading-snug italic"
                 style={{ fontFamily: "'Cormorant Garamond', serif" }}
               >
-                "Equal justice under law is not merely a caption on the facade of the Supreme Court â€” it is perhaps the most inspiring ideal of our society."
+                "Equal justice under law is not merely a caption on the facade of the Supreme Court — it is perhaps the most inspiring ideal of our society."
               </blockquote>
             </div>
           </div>

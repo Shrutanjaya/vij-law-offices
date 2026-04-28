@@ -18,7 +18,7 @@ export default function Counsel() {
               <div className="relative aspect-[3/4] w-full">
                 <Image
                   src="/images/founder.jpg"
-                  alt="Shivani Vij â€” Counsel & Founder, Vij Law Offices"
+                  alt="Shivani Vij — Counsel & Founder, Vij Law Offices"
                   fill
                   className="object-cover object-top rounded-sm"
                   sizes="(max-width: 768px) 100vw, 33vw"
@@ -66,7 +66,7 @@ export default function Counsel() {
               </p>
               <p>
                 She is an <span className="font-medium text-[#0d1b2a]">Advocate on Record</span> at
-                the Supreme Court of India â€” a qualification held by a limited number of advocates
+                the Supreme Court of India — a qualification held by a limited number of advocates
                 that authorises filing matters directly before the Court.
               </p>
               <p>

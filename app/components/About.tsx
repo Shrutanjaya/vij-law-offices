@@ -3,7 +3,7 @@
     <section id="about" className="section-pad bg-[#FAF8F3]">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left â€” text */}
+          {/* Left — text */}
           <div>
             <p className="text-xs tracking-[0.3em] uppercase text-[#7A5C0A] mb-6 font-medium">
               About the Chamber
@@ -23,7 +23,7 @@
                 across a wide range of disputes.
               </p>
               <p>
-                The chamber is committed to accessible justice â€” overcoming any
+                The chamber is committed to accessible justice — overcoming any
                 barriers faced on account of gender or disability. Integrity, ethics
                 and compassion underpin every matter undertaken here.
               </p>
@@ -34,13 +34,13 @@
             </div>
           </div>
 
-          {/* Right â€” value pillars */}
+          {/* Right — value pillars */}
           <div className="grid grid-cols-2 gap-4">
             {[
-              { icon: "âš–", label: "Integrity", sub: "In every brief, every argument" },
-              { icon: "ðŸ“–", label: "Scholarship", sub: "Grounded in legal learning" },
-              { icon: "ðŸ¤", label: "Accessibility", sub: "Justice without barriers" },
-              { icon: "ðŸŽ¯", label: "Rigour", sub: "Precise, thorough, prepared" },
+              { icon: "⚖", label: "Integrity", sub: "In every brief, every argument" },
+              { icon: "§", label: "Scholarship", sub: "Grounded in legal learning" },
+              { icon: "◆", label: "Accessibility", sub: "Justice without barriers" },
+              { icon: "✦", label: "Rigour", sub: "Precise, thorough, prepared" },
             ].map((item) => (
               <div
                 key={item.label}
